@@ -3,6 +3,8 @@
 Outil de saisie et de suivi de ramasses de palettes pour chauffeurs, en HTML/JS
 autonome — aucun build, aucun backend.
 
+**Démo en ligne : [protransdock.com/palback](https://www.protransdock.com/palback)**
+
 ## Fonctionnalités
 
 - Saisie rapide des unités ramassées (palettes, demi-palettes, ...) par tournée
