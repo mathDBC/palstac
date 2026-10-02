@@ -1,15 +1,17 @@
-# PalBack
+# PalStac
 
 Outil de saisie et de suivi de ramasses de palettes pour chauffeurs, en HTML/JS
 autonome — aucun build, aucun backend.
 
-**Démo en ligne : [protransdock.com/palback](https://www.protransdock.com/palback)**
+**Démo en ligne : [protransdock.com/palstac](https://www.protransdock.com/palstac)**
 
 ## Fonctionnalités
 
-- Saisie rapide des unités ramassées (palettes, demi-palettes, ...) par tournée
-- Rapports journée / semaine par chauffeur
-- Export CSV / Excel (via [SheetJS](https://sheetjs.com/)) et HTML
+- Saisie rapide des unités ramassées (bac, palettes, dosserets, demi-palettes) par tournée
+- Poids calculé automatiquement à partir du nombre d'unités
+- Rapports journée et semaine par chauffeur
+- Export CSV et HTML
+- Fond bleu, avec un choix de couleur pour l'interface
 
 ## Usage
 
@@ -20,16 +22,12 @@ quel serveur statique :
 python3 -m http.server 8080
 ```
 
-Les données sont stockées uniquement dans le `localStorage` du navigateur —
-il n'y a pas de serveur ni de base de données. Un profil correspond à un
-chauffeur ; l'app n'est pas conçue pour gérer plusieurs chauffeurs dans la
-même session.
+Les données restent dans le `localStorage` du navigateur. Il n'y a pas de
+serveur ni de base de données. Un profil correspond à un chauffeur.
 
 ## Stack
 
-- HTML/CSS/JS vanilla, sans dépendance de build
-- [SheetJS (xlsx.full.min.js)](https://sheetjs.com/) embarqué en local pour
-  les exports Excel
+HTML, CSS et JavaScript, sans outil de build.
 
 ## Licence
 
