@@ -8,7 +8,6 @@ autonome — aucun build, aucun backend.
 ## Fonctionnalités
 
 - Saisie rapide des unités ramassées (bac, palettes, dosserets, demi-palettes) par tournée
-- Poids calculé automatiquement à partir du nombre d'unités
 - Rapports journée et semaine par chauffeur
 - Export CSV et HTML
 - Fond bleu, avec un choix de couleur pour l'interface
